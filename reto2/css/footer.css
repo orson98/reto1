@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+.footer-nav{
+    display: flex;
+
+}
+.footer-nav-container{
+    display: flex;
+    padding: 1rem;
+    border-top: 1px solid white;
+   
+
+}
+.footer-nav__link-lista{
+    
+    gap: 1rem;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.footer-nav__link-item{
+
+    
+
+}
+.footer-nav__link{
+    display: flex; 
+    width: 1.5rem;
+
+}
+.footer-nav__link-image{
+    width: 100%;
+
+}
