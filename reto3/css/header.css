@@ -1,0 +1,89 @@
+
+    .header{
+
+    display: flex;
+    padding:3rem;
+    justify-content: center;
+
+    
+
+    }
+    
+        
+   .header_image-container{
+       
+      
+       position: relative;
+       max-width: 300px;
+       margin: 0;
+       display: flex;
+
+    }
+
+    .header_image{
+        width: 100%;
+        border-radius: 50%; 
+        
+    }
+    
+    
+    .header__figure-tech-one{
+        position: absolute;
+        top: 35%;
+        left: 140%;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 30%;
+         
+    }
+    .header__figure-tech-two{
+       
+        position: absolute;
+        top: 35%;
+        left: -70%;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 30%;
+
+    }
+    .header__figure-tech-three{
+        top: 30%;
+        left:-50%;
+        position: absolute;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40%;
+    }
+    .header__figure-tech-four{
+        
+        position: absolute;
+        top: 30%;
+        left: 110%;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 40%;
+    }
+
+    @media (max-width: 854px){
+
+        .header__figure-tech-one{
+
+            display: none;
+       
+        }
+        .header__figure-tech-two{
+           
+            display: none;
+        }
+        .header__figure-tech-three{
+           
+            display: none;
+        }
+        .header__figure-tech-four{
+            
+            display: none;
+        }
+
+        
+    
+    }
